@@ -1,0 +1,87 @@
+/*
+Chat App Landing Page CSS
+*/
+
+/* Main */
+
+body{
+  position: relative;
+}
+
+/* Navbar */
+nav{
+  padding-top: 22px;
+  padding-left: 133px;
+  color: #fff;
+}
+
+nav .logo{
+	height: 39px;
+	width: 144px;
+	color: #FFFFFF;
+	font-family: ".SF NS Display";
+	font-size: 32px;
+	line-height: 38px;
+}
+
+nav a{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* Header */
+
+header{
+	height: 580px;
+	background: linear-gradient(315deg, #764BA2 0%, #667EEA 100%);
+}
+
+#hero h1{
+  height: 88px;
+  width: 476px;
+	color: #FFFFFF;
+	font-family: Montserrat;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+#hero p{
+  height: 99px;
+  width: 559px;
+  color: #FFFFFF;
+  font-family: ".SF NS Display";
+  font-size: 24px;
+  line-height: 28px;
+}
+/* Section Feature */
+.feature{
+  height: 640px;
+}
+
+
+/* Section How It Works*/
+.howrks{
+  height: 780px;
+  background-color: #F5F5F5;
+}
+
+/* Section Download */
+.download{
+  height: 570px;
+}
+
+/* Press */
+.press {
+	height: 152px;
+	background-color: #D2D2D2;
+}
+
+/* Footer */
+footer{
+  height: 310px;
+  color: #fff;
+  background-color: #6E5694;
+}
+/* Responsive */
+
+@@media
+}

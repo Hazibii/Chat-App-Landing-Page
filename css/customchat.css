@@ -6,6 +6,7 @@ Chat App Landing Page CSS
 
 body{
   position: relative;
+  font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
 }
 
 .center{
@@ -31,12 +32,16 @@ nav .logo{
 nav a{
   padding-left: 50px;
   padding-right: 50px;
+  color: #fff;
 }
 /* Header */
 
 header{
 	height: 580px;
 	background: linear-gradient(315deg, #764BA2 0%, #667EEA 100%);
+}
+.heros{
+  padding-left: 140px;
 }
 
 #hero h1{
@@ -58,12 +63,16 @@ header{
 }
 /* Section Feature */
 .feature{
-  height: 640px;
+  min-height: 640px;
+  display: block;
 }
 
 .feature h2{
   margin: 0;
   padding: 56px 0 58px 0;
+	color: #434343;
+	font-family: Montserrat;
+	font-size: 36px;
 }
 
 .feature img{
@@ -81,7 +90,6 @@ header{
 
 .feature p {
 	color: #7A7A7A;
-	font-family: ".SF NS Display";
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
@@ -91,18 +99,40 @@ header{
 /* Section How It Works*/
 .howrks{
   min-height: 780px;
+  display: block;
   background-color: #F5F5F5;
+}
+
+.howrks h2{
+  padding: 50px 0 50px 0;
+	color: #434343;
+	font-family: Montserrat;
+	font-size: 36px;
+	line-height: 43px;
 }
 
 .howrks h3{
 	color: #434343;
 	font-family: Montserrat;
 	font-size: 36px;
+  color: #53467B;
+	font-family: Montserrat;
+	font-size: 20px;
+}
+
+.howrks p{
+	color: #7A7A7A;
+	font-size: 18px;
+}
+
+.phone2{
+  padding-left: 170px;
 }
 
 /* Section Download */
 .download{
   min-height: 570px;
+  display: block;
 }
 
 .download-now{
@@ -111,7 +141,7 @@ header{
 
 
 .download-right{
-  top: 200px;
+  padding-top: 200px;
 }
 
 .download-right img{
@@ -124,14 +154,15 @@ header{
 
 /* Press */
 .press {
-	min-height: 152px;
+	min-height: 150px;
+  display: block;
 	background-color: #D2D2D2;
   padding-top: auto;
 }
 
 .logos{
   padding: 40px 50px 50px 40px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .logos img{
